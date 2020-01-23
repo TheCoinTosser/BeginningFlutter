@@ -30,6 +30,13 @@ class MainScreen extends StatelessWidget{
     );
   }
 
+  openVideoPlayer(BuildContext context){
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => HelloWorld()),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return ListView(
